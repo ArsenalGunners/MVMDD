@@ -23,4 +23,9 @@ MVMDD
 │   └───bottles
 |   ...
 ```
-When you download and unzip the file, the files tree shows above. Clear_Background and Complex Background are two different background complexity level. Either of them contains six object catagories (**bag, books, bottles, cups, pens, phones**). For every image in a certain catgory, the file name is "(instance number) _ (view number) _ (distance number).jpg"
+
+## What is the files' names mean?
+When you download and unzip the file, a file tree shows above. Clear_Background and Complex Background are two different background complexity level. Either of them contains six object catagories (**bag, books, bottles, cups, pens, phones**). For every image in a certain catgory, the file name is "(instance number) _ (view number) _ (distance number).jpg" 
+
+## Example of several images
+
