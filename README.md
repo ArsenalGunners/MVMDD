@@ -28,4 +28,4 @@ MVMDD
 When you download and unzip the file, a file tree shows above. Clear_Background and Complex Background are two different background complexity level. Either of them contains six object categories (**bag, books, bottles, cups, pens, phones**). For every image in a certain category, the file name is "(instance number) _ (view number) _ (distance number).jpg" 
 
 ## Example of several images
-
+![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.jpg.PNG)
