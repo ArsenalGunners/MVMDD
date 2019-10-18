@@ -30,6 +30,8 @@ When you download and unzip the file, a file tree shows above. Clear_Background 
 ## Example of several images
 ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.jpg.PNG)
 
+Here is the coresponding name for the above image examples
+
 | Bag      | Book | Bottle     |Cup   |Pen    |Phone    |
 | :---        |    :----:   |         :----:  |:----:     |:----:    |---:    |
 |bag1_view1_distance1|book1_view1_distance1|bottle1_view1_distance1|cup1_view1_distance1|pen1_view1_distance1|phone1_view1_distance1|
