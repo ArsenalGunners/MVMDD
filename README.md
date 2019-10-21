@@ -40,4 +40,15 @@ Here is the coresponding name for the above image examples
 
 ## Synthesize Distortion Images
 
-You can make your own distortion image dataset by the script ""
+You can make your own distortion image dataset by the script "distortion_generation.py".
+
+1. you need to install open-cv, skimage, numpy before running the script.
+2. put the script in the folder "MVMDD".
+3. runing the script: python .\distortion_generation.py source_dir distortion_type distortion_degree
+   source_dir -- the original dir that contains pristine images
+   distortion_type: "MB" for Montion blur, "GB" for Gaussian blur, "GN" for Gaussain noise
+   distortion_degree: distortion level.
+   **ex: python .\distortion_generation.py .\Clear_Background\ GN 0.01**
+4. you will see the generated folder that contains distortion images in "MVMDD"
+  
+ 
