@@ -47,7 +47,8 @@ You can make your own distortion image dataset by the script "distortion_generat
 2. put the script in the folder "MVMDD".
 3. runing the script: python .\distortion_generation.py -source_dir -distortion_type -distortion_degree<br>
    -source_dir -- the original dir that contains pristine images<br>
-   -distortion_type: "MB" for Montion blur,<br>
+   -distortion_type: <br>
+                    "MB" for Montion blur,<br>
                     "GB" for Gaussian blur,<br>
                     "GN" for Gaussain noise<br>
                     
