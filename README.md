@@ -36,7 +36,7 @@ Here is the coresponding name for the above image examples
 | Bag      | Book | Bottle     |Cup   |Pen    |Phone    |
 | :---        |    :----:   |         :----:  |:----:     |:----:    |---:    |
 |bag1_view1_distance1|book1_view1_distance1|bottle1_view1_distance1|cup1_view1_distance1|pen1_view1_distance1|phone1_view1_distance1|
-|bag5_view1_distance2|book2_view6_distance2|bottle2_view2_distance2|cup2_view2_distance2|pen2_view1_distance2|phone6_view2_distance2|
+|bag5_view1_distance2|book2_view6_distance2|bottle2_view2_distance2|cup5_view5_distance2|pen2_view1_distance2|phone6_view2_distance2|
 |bag6_view2_distance3|book2_view6_distance2|bottle3_view4_distance3|cup3_view6_distance3|pen5_view4_distance3|phone5_view6_distance3|
 
 ## Synthesize Distortion Images
