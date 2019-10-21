@@ -39,3 +39,5 @@ Here is the coresponding name for the above image examples
 |bag6_view2_distance3|book2_view6_distance2|bottle3_view4_distance3|cup3_view6_distance3|pen5_view4_distance3|phone5_view6_distance3|
 
 ## Synthesize Distortion Images
+
+You can make your own distortion image dataset by the script ""
