@@ -41,7 +41,7 @@ The MVMDD dataset provided here including only the pristine image set. Data augm
 
 The pristine image set follows a hierarchical file structure below. The two sub-folders, ***Clear_Background*** and ***Complex Background***, correspond to the two background complexities, respectively. In each of the sub-folders, there are six folders that are corresponding to the ***six object categories***. 
 
-- Tree structure of the dataset:
+- Tree structure of the dataset folder:
 ```
 MVMDD
 └───Clear_Background
