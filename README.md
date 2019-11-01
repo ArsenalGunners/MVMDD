@@ -22,7 +22,6 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. **Six 
 ### 1.2 Augmented image set
 We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. For each type of distortion, **eight distortion levels** are considered.
 
-
 ## 2. Download MVMDD Dataset
 The pristine image set can be downloaded via: ***[Link to the full-dataset will be made available after acceptance]***
 
@@ -30,15 +29,11 @@ A partial example set can access via:
 
 The MVMDD dataset provided here including only the pristine image set. Data augmentation source codes are provided for generating the augmented image set.
 
-### 2.1 Hierarchical file tree of the pristine image set
+### 2.1 Hierarchical structure of the pristine image set
 
 The pristine image set follows a hierarchical file structure below. The two sub-folders, ***Clear_Background*** and ***Complex Background***, correspond to the two background complexities, respectively. In each of the sub-folders, there are six folders that are corresponding to the ***six object categories***. 
 
-The images are named in the format of ***(instance number) _ (view number) _ (distance number).jpg***, where:
-- **(instance number)** corresponds to one of the **six instances**, 
-- **(view number)** corresponds to one of the **six views**,
-- **(distance number)** corresponds to one of the **six distances**.
-
+- Tree structure of the dataset:
 ```
 MVMDD
 └───Clear_Background
@@ -60,6 +55,13 @@ MVMDD
 │   └───bottles
 |   ...
 ```
+
+The images are named in the format of ***(instance number) _ (view number) _ (distance number).jpg***, where:
+- **(instance number)** corresponds to one of the **six instances**, 
+- **(view number)** corresponds to one of the **six views**,
+- **(distance number)** corresponds to one of the **six distances**.
+
+For instance, image with name *'bag1_view1_distance1.jpg'* corresponds to the 
 
 ## 2.2 Synthesize distorted images using data augmentation
 
