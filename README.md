@@ -15,8 +15,7 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. **Six 
  | Number of instances|6|
  |**Total pristine images**|6 x 6 x 2 x 3 x 6 = 1,296|
 
-#### Example of pristine images collected in the dataset.
- 
+#### Example of pristine images collected in the dataset:
   ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
 
 ### 1.2 Augmented image set
