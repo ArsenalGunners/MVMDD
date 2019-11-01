@@ -1,6 +1,11 @@
 # MVMDD
 
-Here is the hyperlink for downloading MVMDD dataset : https://1drv.ms/u/s!Aqyf-lNI69G1gkZOzXY8pcpU_ouL?e=aOlAfG
+## Dataset Information
+Towards the goal of studying the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine image set (i.e., clear images without distortion) and an augmented distortion image set. The information of the collected MVMDD dataset is summarized in the table below.
+
+| | Object categories |  6  |
+|              | Number of views      |  6  |
+|              | Background complexity|  2  |
 
 ```
 MVMDD
