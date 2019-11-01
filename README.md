@@ -70,7 +70,7 @@ The images are named in the format of ***(instance number) _ (view number) _ (di
 
 For instance, image with name *'bag1_view1_distance1.jpg'* corresponds to the image of *instance #1* of *bag* which captured at *distance1* from *view1*.
 
-## 2.2 Synthesize distorted images using data augmentation
+### 2.2 Synthesize distorted images using data augmentation
 
 After downloading the pristine image set, one can create the distortion image set by running the Python script "*distortion_generation.py*". The script can be download via: ***[Link will be made available after acceptance]***
 
