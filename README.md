@@ -55,25 +55,26 @@ MVMDD
 │   └───bottles
 |   ...
 ```
-
 The images are named in the format of ***(instance number) _ (view number) _ (distance number).jpg***, where:
 - **(instance number)** corresponds to one of the **six instances**, 
 - **(view number)** corresponds to one of the **six views**,
 - **(distance number)** corresponds to one of the **six distances**.
 
-For instance, image with name *'bag1_view1_distance1.jpg'* corresponds to the 
+For instance, image with name *'bag1_view1_distance1.jpg'* corresponds to the image of *instance #1* of *bag* which captured at *distance1* from *view1*.
 
 ## 2.2 Synthesize distorted images using data augmentation
 
-After downloading the pristine image set, one can create the distortion image set by running the script "distortion_generation.py".
+After downloading the pristine image set, one can create the distortion image set by running the Python script "*distortion_generation.py*". The script can be download via: ***[Link will be made available after acceptance]***
 
-1. you need to install open-cv, skimage, numpy before running the script.
-2. put the script in the folder "MVMDD".
-3. runing the script: python .\distortion_generation.py -source_dir -distortion_type -distortion_degree<br>
-   -source_dir -- the original dir that contains pristine images<br>
+You should be able to generate distortion images follow the procedure below:
+1. Before running the script, you should install necessary tools and libraries on your computer including: open-cv, skimage, and numpy.
+2. Then, put the script under the folder ''MVMDD''.
+3. Run the script by: `python .\distortion_generation.py -source_dir -distortion_type -distortion_degree<br>`
+   -source_dir -- is the original dir that contains the pristine images<br>
    -distortion_type:  "MB" for Montion blur, "GB" for Gaussian blur, "GN" for Gaussain noise<br>
    -distortion_degree: distortion level. <br>
    **ex: python .\distortion_generation.py .\Clear_Background\ GN 0.01**
+
 4. you will see a generated folder that contains distortion images in "MVMDD"
   
  
