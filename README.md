@@ -70,8 +70,8 @@ You should be able to generate distortion images follow the procedure below:
 1. Before running the script, you should install necessary tools and libraries on your computer including: open-cv, skimage, and numpy.
 2. Then, put the script under the folder ''MVMDD''.
 3. Run the script by: `python .\distortion_generation.py -source_dir -distortion_type -distortion_degree<br>`
-   - *source_dir*: indicates the original dir that contains the pristine images<br>
-   - *distortion_type*: indicates the type of distortion you whould like to sythesize. There three options avaliable: 
+   - *source_dir*: indicates the original dir that contains the pristine images.
+   - *distortion_type*: indicates the type of distortion you whould like to sythesize. There are three options avaliable: 
       - *MB* for montion blur 
       - *GB* for Gaussian blur 
       - *GN* for Gaussain noise
