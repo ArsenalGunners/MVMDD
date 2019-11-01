@@ -20,7 +20,16 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. **Six 
   ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
 
 ### 1.2 Augmented image set
-We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. For each type of distortion, **eight distortion levels** are considered.
+We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. For each type of distortion, **eight distortion levels** are considered. We are using the following models to augment distortion images:
+
+- Motion blur:
+  - Sun, Jian, Wenfei Cao, Zongben Xu, and Jean Ponce. "Learning a convolutional neural network for non-uniform motion blur removal." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 769-777. 2015.
+- Gaussian blur:
+  - Flusser, Jan, Sajad Farokhi, Cyril Höschl, Tomáš Suk, Barbara Zitová, and Matteo Pedone. "Recognition of images degraded by Gaussian blur." IEEE transactions on Image Processing 25, no. 2 (2015): 790-806.
+- Gaissian noise:
+  - Liu, Wei, and Weisi Lin. "Additive white Gaussian noise level estimation in SVD domain for images." IEEE Transactions on Image processing 22, no. 3 (2012): 872-883.
+
+The codes and procedure in generating the augmented image set are introduced below (in section 2.2).
 
 ## 2. Download MVMDD Dataset
 The pristine image set can be downloaded via: ***[Link to the full-dataset will be made available after acceptance]***
