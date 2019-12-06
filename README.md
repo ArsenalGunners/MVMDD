@@ -33,7 +33,7 @@ The codes and procedure in generating the augmented image set are introduced bel
 ## 2. Download MVMDD Dataset
 The pristine image set can be downloaded via: ***[Link to the full-dataset will be made available after acceptance]***
 
-A partial example set can access via: 
+A partial example set can access via: https://1drv.ms/u/s!Aqyf-lNI69G1glQHRUJyUpdP__tQ?e=hKxjow
 
 The MVMDD dataset provided here including only the pristine image set. Data augmentation source codes are provided for generating the augmented image set.
 
