@@ -72,7 +72,7 @@ For instance, image with name *'bag1_view1_distance1.jpg'* corresponds to the im
 
 ### 2.2 Synthesize distorted images using data augmentation
 
-After downloading the pristine image set, one can create the distortion image set by running the Python script "*distortion_generation.py*". The script can be download via: ***[Link will be made available after acceptance]***
+After downloading the pristine image set, one can create the distortion image set by running the Python script "*distortion_generation.py*". The script can be download via: https://github.com/CollabAR-Source/MVMDD/blob/master/distortion_generation.py
 
 You should be able to generate distortion images follow the procedure below:
 1. Before running the script, you should install necessary tools and libraries on your computer including: open-cv, skimage, and numpy.
