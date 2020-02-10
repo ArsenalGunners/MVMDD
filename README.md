@@ -84,6 +84,7 @@ You should be able to generate distortion images follow the procedure below:
       - *GB* for Gaussian blur 
       - *GN* for Gaussain noise
    - *distortion_degree*: indicates the distortion level you would like to set.
+ 4. The generated images will be saved in generated folder.
 
 The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all the images in the *.\Clear_Background* folder: **python .\distortion_generation.py .\Clear_Background\ GN 0.01**
   
