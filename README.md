@@ -19,7 +19,9 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
   ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
 
 ### 1.2 Augmented image set
-We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. For each type of distortion, **eight distortion levels** are considered. We are using the following models to augment distortion images:
+We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. Motion blur always appear because of the movement of mobile and head-on device.
+
+For each type of distortion, **eight distortion levels** are considered. We are using the following models to augment distortion images:
 
 - Motion blur:
   - Sun, Jian, Wenfei Cao, Zongben Xu, and Jean Ponce. "Learning a convolutional neural network for non-uniform motion blur removal." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 769-777. 2015.
