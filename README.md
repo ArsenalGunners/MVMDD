@@ -3,6 +3,10 @@
 ## 1. Dataset Information
 To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
 
+<div style="text-align: center">
+<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif"/>
+</div>
+
 ### 1.1 Pristine image set
 The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. Six categories of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. The data are collected under **two different background complexity** (i.e., a clear white table background and a noisy background containing other non-target objects). Each category has **six instances**. For each instance, images are taken from **six different views** (i.e., six different angles with a 60 degree angle difference between any two adjacent views) and **three distances** (We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image). The details are summarized in the table below:
 
@@ -16,7 +20,7 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
  |**Total pristine images**|6 x 6 x 2 x 3 x 6 = 1,296|
 
 #### Example of pristine images collected in the dataset:
-  ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
+![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
 
 ### 1.2 Augmented image set
 We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. Motion blur always appears because of the movement of mobile and head-mounted AR devices. Gaussian blur is used to simulate defocus and underwater effects. And Gaussian noise is evident in dim light conditions because of the high ISO value.
