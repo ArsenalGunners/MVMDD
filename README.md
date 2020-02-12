@@ -4,7 +4,7 @@
 To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
 
 ### 1.1 Pristine image set
-The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. The data are collected under **two different background complexity** (i.e., a clear white table background and a noisy background containing other non-target objects). Six categories of everyday objects are considered under each background complexity, *cup, phone, bottle, book, bag, and pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (i.e., six different angles with a 60 degree angle difference between any two adjacent views) and **three distances**. The details are summarized in the table below:
+The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. Six categories of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. The data are collected under **two different background complexity** (i.e., a clear white table background and a noisy background containing other non-target objects). Each category has **six instances**. For each instance, images are taken from **six different views** (i.e., six different angles with a 60 degree angle difference between any two adjacent views) and **three distances**. The details are summarized in the table below:
 
  |  |  | 
  | --- | :---: |
