@@ -41,9 +41,7 @@ The codes and procedure for generating the augmented image set are introduced be
 
 ## 2. Download MVMDD Dataset
 + The pristine image set can be downloaded via: https://1drv.ms/u/s!Aqyf-lNI69G1g3plety8Ie4FD8h9?e=9Ys6Rz
-+ An augmented distortion image set can be downloaded via: https://1drv.ms/u/s!Aqyf-lNI69G1g3plety8Ie4FD8h9?e=9Ys6Rz, which contains three different levels for each destortion category. 
-+ Data augmentation source codes are provided for generating your own the augmented image set.
-
++ An augmented distortion image set can be downloaded via: https://drive.google.com/file/d/18Rc_NqcOBnxWke3VFuM2En3cQPkXRMTG/view?usp=sharing, which contains three different levels for each destortion category. 
 
 | Distortion parameter | level 1 | level 2 | level 3 |
 | ------ | ------ | ------ | ------ |
@@ -51,6 +49,11 @@ The codes and procedure for generating the augmented image set are introduced be
 | Aperture size (Gaussian blur)| 11 | 21 | 31 |
 | Variance (Gaussian noise)| 0.01 | 0.02 | 0.03 |
     
+    
++ Data augmentation source codes are provided for generating your own the augmented image set.
+
+
+
     
 
 ### 2.1 Hierarchical structure of the pristine image set
