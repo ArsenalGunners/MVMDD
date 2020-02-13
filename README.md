@@ -35,6 +35,8 @@ For each type of distortion, **eight distortion levels** are considered. We are 
 - Gaissian noise:
   - Liu, Wei, and Weisi Lin. "Additive white Gaussian noise level estimation in SVD domain for images." IEEE Transactions on Image processing 22, no. 3 (2012): 872-883.
 
+#### Example of augmented distorted images in the dataset:
+<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
 The codes and procedure for generating the augmented image set are introduced below (in section 2.2).
 
 ## 2. Download MVMDD Dataset
