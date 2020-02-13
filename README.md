@@ -3,8 +3,8 @@
 ## 1. Dataset Information
 To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
 
-
-<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "600" height = "400" hspace="100" align=center />
+Here is a partial demo video of our CollabAR system, which aims to collaborate corelated users to improve AR experience in heterogeneous environment. We make this AR demonstration by MVMDD dataset. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
+<img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "700" height = "400" hspace="70" align=center />
 
 ### 1.1 Pristine image set
 The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. Six categories of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. The data are collected under **two different background complexity** (i.e., a clear white table background and a noisy background containing other non-target objects). Each category has **six instances**. For each instance, images are taken from **six different views** (i.e., six different angles with a 60 degree angle difference between any two adjacent views) and **three distances** (We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image). The details are summarized in the table below:
