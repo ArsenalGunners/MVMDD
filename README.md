@@ -3,7 +3,7 @@
 ## 1. Dataset Information
 To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
 
-We make CollabAR AR demonstration by MVMDD dataset.Here is a partial demo video, which aims to collaborate corelated users to improve AR experience in heterogeneous environment. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here, if you are interested in our paper.
+We make CollabAR AR demonstration by MVMDD dataset. Here is a partial demo video, which aims to collaborate corelated users to improve AR experience in heterogeneous environment. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here, if you are interested in our paper.
 
 
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "500" height = "300" hspace="170" align=center />
