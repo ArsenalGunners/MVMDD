@@ -103,7 +103,7 @@ You should be able to generate distortion images follow the procedure below:
 
 The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all the images in the *./Clear_Background* folder: **python .\distortion_generation.py .\Clear_Background\ GN 0.01**
   
-### CollabAR Demo
+## 3. CollabAR Demo
 
 We make CollabAR AR demonstration by MVMDD dataset. Here is a partial demo video, which aims to collaborate corelated users to improve AR experience in heterogeneous environment. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
 
