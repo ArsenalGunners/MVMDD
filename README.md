@@ -2,7 +2,8 @@
 
 &nbsp; 　　　　　　　　　　　　　　　Zida Liu, Guohao Lan,  Juan Blanco, Maria Gorlatova
 
-&nbsp;　　　　　　　　　　　　　　[Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/), Duke University
+&nbsp;　　　　　　　　　　　　　　　　[Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/)
+　　　　　　　　　　　　　　　　　　　　　Duke University
 
 ## 1. Dataset Information
 To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
