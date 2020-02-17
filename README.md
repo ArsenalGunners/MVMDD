@@ -41,7 +41,7 @@ The codes and procedure for generating the augmented image set are introduced be
 
 ## 2. Download MVMDD Dataset
 + The pristine image set can be downloaded via: https://1drv.ms/u/s!Aqyf-lNI69G1g3plety8Ie4FD8h9?e=9Ys6Rz
-+ An augmented distortion image set can be downloaded via: https://drive.google.com/file/d/18Rc_NqcOBnxWke3VFuM2En3cQPkXRMTG/view?usp=sharing, which contains three different levels for each destortion category. 
++ An augmented distortion image set can be downloaded via: https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, which contains three different levels for each destortion category. 
 
 | Distortion parameter | level 1 | level 2 | level 3 |
 | ------ | ------ | ------ | ------ |
