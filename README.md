@@ -1,4 +1,4 @@
-# 　&nbsp; &nbsp; Multi-view Multi-distortion Image Dataset (MVMDD)
+# 　&nbsp;Multi-view Multi-distortion Image Dataset (MVMDD)
 
 &nbsp; 　　　　　　　　　　　　　　　　Zida Liu, Guohao Lan, Maria Gorlatova, Juan Blanco  
 &nbsp; 　　　　　　　　　　　　　　　　　　　　　　Duke University
