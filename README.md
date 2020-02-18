@@ -142,12 +142,12 @@ Please cite the following papers in your publications if the dataset helps your 
   
 ## 5. <span id="5">Acknowledgements</span>
 
-Thanks for the main contributors of the MVMDD Dataset. They are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work is supported by [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
+Thanks for the main contributors of the MVMDD Dataset. They are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
 
 Contact Information of contributors: 
 
- * zida.liu AT duke.edu
-*
+* zida.liu AT duke.edu
+* juanmblanco AT me.com
 * guohao.lan AT duke.edu
 * maria.gorlatova AT duke.edu
 
