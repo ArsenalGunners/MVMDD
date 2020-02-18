@@ -24,7 +24,7 @@ To study the impact of image distortion on multi-view augmented reality system, 
 
 
 ### 1.1 Pristine image set
-The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. Six categories of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. The data are collected under **two different background complexity** (i.e., a clear white table background and a noisy background containing other non-target objects). Each category has **six instances**. For each instance, images are taken from **six different views** (i.e., six different angles with a 60 degree angle difference between any two adjacent views) and **three distances** (We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image). The details are summarized in the table below:
+The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. **Six categories** of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. For each instance, images are taken from six different views (six different angles with a 60 angle difference between any two adjacent views), two different background complexity levels (a clear white table background and a noisy background containing other non-target objects), and three distances. (We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image). The details are summarized in the table below:
 
  |  |  | 
  | --- | :---: |
@@ -124,7 +124,7 @@ The following is an example of generating *Gaussian noise* distorted images with
   
 ## 3. <span id="3">CollabAR Demo</span>
 
-We use MVMDD dataset to make a collaborative image recognition system for improving AR experience in heterogeneous environment. Here is a partial demonstration video. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
+We use MVMDD dataset to make a collaborative image recognition system for improving AR experience in heterogeneous environment. Here is a partial demonstration video. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and the [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
 
 
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "500" height = "300" hspace="170" align=center />
@@ -142,6 +142,6 @@ Please cite the following papers in your publications if the dataset helps your 
   
 ## 5. <span id="5">Acknowledgements</span>
 
-Thanks for the main contributors of the MVMDD Dataset. They are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work is supported by [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at Duke University](https://www.duke.edu/).
+Thanks for the main contributors of the MVMDD Dataset. They are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work is supported by [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
 
 
