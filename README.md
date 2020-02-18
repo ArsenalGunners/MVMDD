@@ -1,6 +1,6 @@
 # 　&nbsp;Multi-view Multi-distortion Image Dataset (MVMDD)
 
-&nbsp; 　　　　　　　　　　　　　　Zida Liu, Guohao Lan,  Juan Blanco, Maria Gorlatova
+&nbsp; 　　　　　　　　　　　　　　[Zida Liu](https://www.zidaliu.com/), [Guohao Lan](https://guohao.netlify.com/),  Juan Blanco, [Maria Gorlatova](https://maria.gorlatova.com/bio/)
 
 &nbsp;　　　　　　　　　　　　 **[Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/), Duke University**
 
