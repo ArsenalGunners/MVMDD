@@ -115,7 +115,7 @@ We make CollabAR AR demonstration by MVMDD dataset. Here is a partial demo video
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "500" height = "300" hspace="170" align=center />
 
 ## 4. Citation
-Please cite the following paper in your publications if the dataset helps your research.
+Please cite the following papers in your publications if the dataset helps your research.
 
      *IPSN citaion link will be released after publication.* 
 
