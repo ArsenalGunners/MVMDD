@@ -1,9 +1,17 @@
-# 　&nbsp;Multi-view Multi-distortion Image Dataset (MVMDD)
+# Multi-view Multi-distortion Image Dataset (MVMDD)
 
-This repository contains the introduction of Multi-view Multi-distortion Image Dataset (MVMDD) for IPSN 2020 Paper "CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality" by Zida Liu, Guohao Lan, Jovan Stojkovic, Yunfan Zhang, Carlee Joe-Wong, and Maria Gorlatova.
+This repository contains the introduction of Multi-view Multi-distortion Image Dataset (MVMDD) for IPSN 2020 Paper "CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality" by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
 
 If you have any questions on this repository or the related paper, feel free to create an issue or send me an email.
 Email address: zida.liu (at) duke.edu
+
+Summary:
+
+* Dataset Information
+* Download MVMDD Dataset
+* CollabAR Demo
+* Citation
+* Acknowledgements
 
 &nbsp; 　　　　　　　　　　　　　　Zida Liu, Juan Blanco, Guohao Lan, Maria Gorlatova
 
