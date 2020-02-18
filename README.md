@@ -115,14 +115,14 @@ We make CollabAR AR demonstration by MVMDD dataset. Here is a partial demo video
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "500" height = "300" hspace="170" align=center />
 
 ## 4. Citation
-Please cite the following paper (arXiv link) in your publications if the dataset helps your research.
+Please cite the following paper in your publications if the dataset helps your research.
 
-*IPSN Citaion will be released after publication.*
+     *IPSN citaion link will be released after publication.* 
 
-@inproceedings{stojkovic2019edge,
-  title={Edge-assisted collaborative image recognition for augmented reality: demo abstract},
-  author={Stojkovic, Jovan and Liu, Zida and Lan, Guohao and Joe-Wong, Carlee and Gorlatova, Maria},
-  booktitle={Proceedings of the 17th Conference on Embedded Networked Sensor Systems},
-  pages={394--395},
-  year={2019}
-}
+     @inproceedings{stojkovic2019edge,
+          title={Edge-assisted collaborative image recognition for augmented reality: demo abstract},
+          author={Stojkovic, Jovan and Liu, Zida and Lan, Guohao and Joe-Wong, Carlee and Gorlatova, Maria},
+          booktitle={Proceedings of the 17th Conference on Embedded Networked Sensor Systems},
+          pages={394--395},
+          year={2019}
+        }
