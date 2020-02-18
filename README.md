@@ -7,13 +7,13 @@ Email address: zida.liu (at) duke.edu
 
 Summary:
 
-* Dataset Information
-* Download MVMDD Dataset
-* CollabAR Demo
-* Citation
-* Acknowledgements
+* [Dataset Information](#1)
+* [Download MVMDD Dataset](#2)
+* [CollabAR Demo](#3)
+* [Citation](#4)
+* [Acknowledgements](#5)
 
-## 1. Dataset Information
+## 1. <span id="1">Dataset Information</span>
 To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
 
 
@@ -48,7 +48,7 @@ For each type of distortion, **eight distortion levels** are considered. We are 
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
 The codes and procedure for generating the augmented image set are introduced below (in section 2.2).
 
-## 2. Download MVMDD Dataset
+## 2. <span id="2">Download MVMDD Dataset</span>
 + The pristine image set can be downloaded via: https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs
 + An augmented distortion image set can be downloaded via: https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, which contains three different levels for each destortion category. 
 
@@ -116,14 +116,15 @@ You should be able to generate distortion images follow the procedure below:
 
 The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all the images in the *./Clear_Background* folder: **python .\distortion_generation.py .\Clear_Background\ GN 0.01**
   
-## 3. CollabAR Demo
+## 3. <span id="3">CollabAR Demo</span>
 
 We make CollabAR AR demonstration by MVMDD dataset. Here is a partial demo video, which aims to collaborate corelated users to improve AR experience in heterogeneous environment. You can find full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
 
 
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "500" height = "300" hspace="170" align=center />
 
-## 4. Citation
+## 4. <span id="4">Citation</span>
+
 Please cite the following papers in your publications if the dataset helps your research.
 
      @inproceedings{liuIPSN20,
@@ -132,3 +133,5 @@ Please cite the following papers in your publications if the dataset helps your 
       booktitle={Proceedings of the 19th ACM/IEEE Conference on Information Processing in Sensor Networks},
       year={2020}
     }
+  
+## 5. <span id="5">Acknowledgements</span>
