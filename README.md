@@ -65,7 +65,7 @@ The codes and procedure for generating the augmented image set are introduced be
 | Variance (Gaussian noise)| 0.01 | 0.02 | 0.03 |
     
     
-+ Data augmentation source codes are provided for generating your own the augmented image set.
++ Data augmentation source codes are provided for generating your own augmented image set.
 
 
 
