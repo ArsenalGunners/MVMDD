@@ -111,7 +111,7 @@ After downloading the pristine image set, one can create the distortion image se
 To generate distortion images, follow the procedure below:
 1. Before running the script, you should install the necessary tools and libraries on your computer, including: open-cv, skimage, and numpy.
 2. Then, put the script under the folder ''MVMDD''.
-3. Run the script as follows: `python .\distortion_generation.py -source_dir -distortion_type -distortion_degree<br>`
+3. Run the script as follows: `python .\distortion_generation.py -source_dir -distortion_type -distortion_degree`
    - *source_dir*: indicates the original dir that contains the pristine images.
    - *distortion_type*: indicates the type of distortion you would like to synthesize. There are three options available: 
       - *MB* for motion blur 
