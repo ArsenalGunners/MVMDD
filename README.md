@@ -6,10 +6,10 @@
 
 
 
-This repository contains download links and the introduction of Multi-view Multi-distortion Image Dataset (MVMDD) for IPSN 2020 Paper ["CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
+This repository contains download links and the introduction of Multi-view Multi-distortion Image Dataset (MVMDD) for IPSN 2020 paper ["CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
 
-If you have any questions on this repository or the related paper, feel free to create an issue or send me an email.
-Email address: zida.liu (at) duke.edu
+If you have any questions on this repository or the related paper, please create an issue or send me an email.
+Email address: zida.liu AT duke.edu
 
 **Summary**:
 
@@ -20,7 +20,7 @@ Email address: zida.liu (at) duke.edu
 * [Acknowledgements](#5)
 
 ## 1. <span id="1">Dataset Information</span>
-To study the impact of image distortion on multi-view augmented reality system, we create the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information of the collected MVMDD dataset is presented below.
+To study the impact of image distortion on multi-view augmented reality system, we created the Multi-View Multi-Distortion image dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information about the collected MVMDD dataset is presented below.
 
 
 ### 1.1 Pristine image set
@@ -35,11 +35,11 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
  | Number of instances|6|
  |**Total pristine images**|6 x 6 x 2 x 3 x 6 = 1,296|
 
-#### Examples of pristine images collected in the dataset:
+#### Examples of pristine images in the dataset:
 ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
 
 ### 1.2 Augmented image set
-We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered: *Motion blur, Gaussian blur, and Gaussian noise*. Smartphones or the head-mounted AR set cameras frequently contain motion blur caused by the motion of the user. Gaussian blur appears when the camera is de-focusing or the image is taken underwater or in a foggy environment. And Gaussian noise is inevitable in images because of poor illumination conditions, digital zooming, and the use of a low-quality image sensor.
+We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered: *Motion blur, Gaussian blur,* and *Gaussian noise*. Smartphones or the head-mounted AR set cameras frequently contain motion blur caused by the motion of the user. Gaussian blur appears when the camera is de-focusing or the image is taken underwater or in a foggy environment. And Gaussian noise is inevitable in images because of poor illumination conditions, digital zooming, and the use of a low-quality image sensor.
 
 For each type of distortion, **three distortion levels** are considered. We are using the following models to augment the images:
 
@@ -58,11 +58,11 @@ The codes and procedure for generating the augmented image set are introduced in
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs
 + An augmented distortion image set can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, which contains three different levels for each distortion category. 
 
-| Distortion parameter | level 1 | level 2 | level 3 |
-| ------ | ------ | ------ | ------ |
-| Blur kernel length (Motion blur) | 10 | 20 | 30 |
-| Aperture size (Gaussian blur)| 11 | 21 | 31 |
-| Variance (Gaussian noise)| 0.01 | 0.02 | 0.03 |
+| Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
+| ------ | ------ | ------ | ------ | ------ |
+| Motion blur | Blur kernel length | 10 | 20 | 30 |
+| Gaussian blur | Aperture size | 11 | 21 | 31 |
+| Gaussian noise | Variance | 0.01 | 0.02 | 0.03 |
     
     
 + Data augmentation source code is provided for generating your own augmented image set.
@@ -73,7 +73,7 @@ The codes and procedure for generating the augmented image set are introduced in
 
 ### 2.1 Hierarchical structure of the pristine image set
 
-The pristine image set follows a hierarchical file structure below. The two sub-folders, ***Clear_Background*** and ***Complex_Background***, correspond to the two background complexities, respectively. In each of the sub-folders, there are six folders that correspond to the ***six object categories***. 
+The pristine image set follows a hierarchical file structure shown below. The two sub-folders, ***Clear_Background*** and ***Complex_Background***, correspond to the two background complexities, respectively. In each of the sub-folders, there are six folders that correspond to the ***six object categories***. 
 
 - The tree structure of the dataset folder:
 ```
@@ -131,7 +131,7 @@ We use MVMDD dataset to make a collaborative image recognition system for improv
 
 ## 4. <span id="4">Citation</span>
 
-Please cite the following papers in your publications if the dataset helps your research.
+Please cite the following paper in your publications if the dataset helps your research.
 
      @inproceedings{Liu20CollabAR,
       title={{CollabAR}: Edge-assisted collaborative image recognition for mobile augmented reality },
@@ -142,7 +142,7 @@ Please cite the following papers in your publications if the dataset helps your 
   
 ## 5. <span id="5">Acknowledgments</span>
 
-Thanks for the main contributors of the MVMDD Dataset. The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
+The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
 
 Contact Information of contributors: 
 
