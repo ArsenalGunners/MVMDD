@@ -124,7 +124,7 @@ The following is an example of generating *Gaussian noise* distorted images with
   
 ## 3. <span id="3">CollabAR Demo</span>
 
-We use MVMDD dataset to make a collaborative image recognition system for improving AR experience in heterogeneous environment. Here is a partial demonstration video of the system. You can find the full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and the [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
+We use MVMDD dataset to make a collaborative image recognition system for improving AR experience in heterogeneous environments. Here is a partial demonstration video of the system. You can find the full [video](https://www.youtube.com/watch?v=RFCxe9ZAVQw&feature=youtu.be) and the [demo paper](https://maria.gorlatova.com/wp-content/uploads/2019/09/MultiUserAR_SenSysDemo_Gorlatova.pdf) here.
 
 
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/video.gif" width = "500" height = "300" hspace="170" align=center />
@@ -140,7 +140,7 @@ Please cite the following papers in your publications if the dataset helps your 
       year={2020}
     }
   
-## 5. <span id="5">Acknowledgements</span>
+## 5. <span id="5">Acknowledgments</span>
 
 Thanks for the main contributors of the MVMDD Dataset. The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
 
