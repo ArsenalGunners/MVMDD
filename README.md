@@ -73,7 +73,7 @@ The codes and procedure for generating the augmented image set are introduced in
 
 ### 2.1 Hierarchical structure of the pristine image set
 
-The pristine image set follows a hierarchical file structure shown below. The two sub-folders, ***Clear_Background*** and ***Complex_Background***, correspond to the two background complexities, respectively. In each of the sub-folders, there are six folders that correspond to the ***six object categories***. 
+The pristine image set follows a hierarchical file structure shown below. The two sub-folders, ***Clear_Background*** and ***Complex_Background***, correspond to the two background complexities. In each of the sub-folders, there are six folders that correspond to the ***six object categories***. 
 
 - The tree structure of the dataset folder:
 ```
