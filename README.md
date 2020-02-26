@@ -106,21 +106,21 @@ For instance, the image with name *'bag1_view1_distance1.jpg'* corresponds to th
 
 ### 2.2 Synthesize distorted images using data augmentation
 
-After downloading the pristine image set, one can create the distortion image set by running the Python script "*distortion_generation.py*". The script can be download via: https://github.com/CollabAR-Source/MVMDD/blob/master/distortion_generation.py
+After downloading the pristine image set, one can create the distortion image set by running the Python script "*distortion_generation.py*". The script can be download via https://github.com/CollabAR-Source/MVMDD/blob/master/distortion_generation.py
 
 To generate distortion images, follow the procedure below:
-1. Before running the script, you should install necessary tools and libraries on your computer including: open-cv, skimage, and numpy.
+1. Before running the script, you should install the necessary tools and libraries on your computer, including: open-cv, skimage, and numpy.
 2. Then, put the script under the folder ''MVMDD''.
 3. Run the script as follows: `python .\distortion_generation.py -source_dir -distortion_type -distortion_degree<br>`
    - *source_dir*: indicates the original dir that contains the pristine images.
-   - *distortion_type*: indicates the type of distortion you would like to sythesize. There are three options available: 
+   - *distortion_type*: indicates the type of distortion you would like to synthesize. There are three options available: 
       - *MB* for motion blur 
       - *GB* for Gaussian blur 
       - *GN* for Gaussian noise
    - *distortion_degree*: indicates the distortion level you would like to set.
  4. The generated images will be saved in the generated folder.
 
-The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all the images in the *./Clear_Background* folder: **python .\distortion_generation.py .\Clear_Background\ GN 0.01**
+The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all images in the *./Clear_Background* folder: **python .\distortion_generation.py .\Clear_Background\ GN 0.01**
   
 ## 3. <span id="3">CollabAR Demo</span>
 
