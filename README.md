@@ -75,7 +75,7 @@ The codes and procedure for generating the augmented image set are introduced in
 
 The pristine image set follows a hierarchical file structure below. The two sub-folders, ***Clear_Background*** and ***Complex_Background***, correspond to the two background complexities, respectively. In each of the sub-folders, there are six folders that correspond to the ***six object categories***. 
 
-- Tree structure of the dataset folder:
+- The tree structure of the dataset folder:
 ```
 MVMDD
 └───Clear_Background
