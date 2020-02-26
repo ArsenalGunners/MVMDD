@@ -24,7 +24,7 @@ To study the impact of image distortion on multi-view augmented reality system, 
 
 
 ### 1.1 Pristine image set
-The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. **Six categories** of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), **two different background complexity** levels (a clear white table background and a noisy background containing other non-target objects), and **three distances**. (We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image). The details are summarized in the table below:
+The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. **Six categories** of everyday objects are considered, *cup, phone, bottle, book, bag, and pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), **two different background complexity** levels (a clear white table background and a noisy background containing other non-target objects), and **three distances**. We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image. The details are summarized in the table below:
 
  |  |  | 
  | --- | :---: |
@@ -39,9 +39,9 @@ The pristine images are collected using a commodity Nokia 7.1 smartphone. The re
 ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
 
 ### 1.2 Augmented image set
-We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered, *motion blur, Gaussian blur, and Gaussian noise*. Motion blur always appears because of the movement of mobile and head-mounted AR devices. Gaussian blur is used to simulate defocus and underwater effects. And Gaussian noise is evident in dim light conditions because of the high ISO value.
+We apply data augmentation techniques on the pristine image set to generate a new augmented image set. Specifically, **three types of image distortion** are considered: *motion blur, Gaussian blur, and Gaussian noise*. Motion blur always appears because of the movement of mobile and head-mounted AR devices. Gaussian blur is used to simulate defocus and underwater effects. And Gaussian noise is evident in dim light conditions because of the high ISO value.
 
-For each type of distortion, **eight distortion levels** are considered. We are using the following models to augment images:
+For each type of distortion, **eight distortion levels** are considered. We are using the following models to augment the images:
 
 - Motion blur:
   - Sun, Jian, Wenfei Cao, Zongben Xu, and Jean Ponce. "Learning a convolutional neural network for non-uniform motion blur removal." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 769-777. 2015.
@@ -50,7 +50,7 @@ For each type of distortion, **eight distortion levels** are considered. We are 
 - Gaissian noise:
   - Liu, Wei, and Weisi Lin. "Additive white Gaussian noise level estimation in SVD domain for images." IEEE Transactions on Image processing 22, no. 3 (2012): 872-883.
 
-#### Example of augmented distorted images in the dataset:
+#### Examples of augmented distorted images in the dataset:
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
 The codes and procedure for generating the augmented image set are introduced below (in section 2.2).
 
