@@ -102,7 +102,7 @@ The images are named in the format of ***(instance number) _ (view number) _ (di
 - **(view number)** corresponds to one of the **six views**,
 - **(distance number)** corresponds to one of the **six distances**.
 
-For instance, image with name *'bag1_view1_distance1.jpg'* corresponds to the image of *instance #1* of *bag* captured at *distance1* from *view1*.
+For instance, the image with name *'bag1_view1_distance1.jpg'* corresponds to the image of *instance #1* of *bag* captured at *distance1* from *view1*.
 
 ### 2.2 Synthesize distorted images using data augmentation
 
