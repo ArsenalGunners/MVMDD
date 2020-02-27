@@ -9,7 +9,7 @@
 This repository contains download links and the introduction of Multi-view Multi-distortion Image Dataset (MVMDD) for IPSN 2020 paper ["CollabAR: Edge-assisted Collaborative Image Recognition for Mobile Augmented Reality"]() by [Zida Liu](daliu.github.io), [Guohao Lan](https://guohao.netlify.com/), Jovan Stojkovic, Yunfan Zhang, [Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and [Maria Gorlatova](https://maria.gorlatova.com/).
 
 If you have any questions on this repository or the related paper, please create an issue or send me an email.
-Email address: zida.liu AT duke.edu
+Email address: zida.liu AT duke.edu.
 
 **Summary**:
 
@@ -20,14 +20,14 @@ Email address: zida.liu AT duke.edu
 * [Acknowledgements](#5)
 
 ## 1. <span id="1">Dataset Information</span>
-To study the impact of image distortion on multi-view augmented reality system, we created the Multi-View Multi-Distortion Image Dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information about the collected MVMDD dataset is presented below.
+To study the impact of image distortion on multi-view augmented reality systems, we created the Multi-View Multi-Distortion Image Dataset (MVMDD). The dataset includes a pristine Multi-view image set (i.e., clear images without distortion) and an augmented distortion Multi-view image set. The detailed information about the collected MVMDD dataset is presented below.
 
 
 ### 1.1 Pristine image set
-The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original image is 3024x4032. **Six categories** of everyday objects are considered, *cup, phone, bottle, book, bag,* and *pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), **two different background complexity** levels (a clear white table background and a noisy background containing other non-target objects), and **three distances**. We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image. The details are summarized in the table below:
+The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original images is 3024x4032. **Six categories** of everyday objects are considered: *cup, phone, bottle, book, bag,* and *pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), **two different background complexity** levels (a clear white table background and a noisy background containing other non-target objects), and **three distances**. We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image. The details are summarized in the table below:
 
  |  |  | 
- | --- | :---: |
+ | --- | --- |
  | Object categories | 6 |
  | Number of views | 6 |
  | Background complexity| 2|
@@ -52,11 +52,11 @@ For each type of distortion, **three distortion levels** are considered. We are 
 
 #### Examples of augmented distorted images in the dataset:
 <img src="https://github.com/CollabAR-Source/MVMDD/blob/master/distorted_images.png" width = "700" height = "400" hspace="70" align=center />
-The codes and procedure for generating the augmented image set are introduced in section 2.2. below.
+The codes and the procedure for generating the augmented image set are introduced in section 2.2. below
 
 ## 2. <span id="2">Download MVMDD Dataset</span>
 + The pristine image set can be downloaded via https://1drv.ms/u/s!Aqyf-lNI69G1hBi5mn31KDNzuw2u?e=qxX2gs
-+ An augmented distortion image set can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, which contains three different levels for each distortion category. 
++ An augmented distortion image set can be downloaded via https://drive.google.com/file/d/1GHtqs2B3Unuhej-BnvZ2QbRCgCPULPvq/view?usp=sharing, It contains three different distortion levels of images for each distortion category. 
 
 | Distortion category | Distortion parameter | Level 1 | Level 2 | Level 3 |
 | ------ | ------ | ------ | ------ | ------ |
@@ -142,9 +142,9 @@ Please cite the following paper in your publications if the dataset helps your r
   
 ## 5. <span id="5">Acknowledgments</span>
 
-The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
+The authors of this dataset are [Zida Liu](https://zidaliu.github.io/), Juan Blanco, [Guohao Lan](https://guohao.netlify.com/) and [Maria Gorlatova](https://maria.gorlatova.com/). This work was done in the [Intelligent Interactive Internet of Things Lab](https://maria.gorlatova.com/) at [Duke University](https://www.duke.edu/).
 
-Contact Information of contributors: 
+Contact Information of the contributors: 
 
 * zida.liu AT duke.edu
 * juanmblanco AT me.com
