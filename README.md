@@ -26,14 +26,28 @@ To study the impact of image distortion on multi-view augmented reality systems,
 ### 1.1 Pristine image set
 The pristine images are collected using a commodity Nokia 7.1 smartphone. The resolution of the original images is 3024x4032. **Six categories** of everyday objects are considered: *cup, phone, bottle, book, bag,* and *pen*. Each category has **six instances**. For each instance, images are taken from **six different views** (six different angles with a 60 angle difference between any two adjacent views), **two different background complexity** levels (a clear white table background and a noisy background containing other non-target objects), and **three distances**. We adjust the distance between the camera and the object such that the sizes of the object in the images are different. For the three distances, the object occupies approximately the whole, half, and one-tenth of the total area of the image. The details are summarized in the table below:
 
- |  |  | 
- | --- | --- |
- | Object categories | 6 |
- | Number of views | 6 |
- | Background complexity| 2|
- | Size of object in image| 3|
- | Number of instances|6|
- |**Total pristine images**|6 x 6 x 2 x 3 x 6 = 1,296|
+ 
+ 
+<table border="0">
+    <tr>
+        <td>Object categories</td><td>6</td>
+    </tr>
+    <tr>
+        <td>Number of views</td><td>6</td>
+    </tr>
+    <tr>
+        <td>Background complexity</td><td>2</td>
+    </tr>
+    <tr>
+        <td>Size of object in an image</td><td>3</td>
+    </tr>
+    <tr>
+        <td>Number of instances</td><td>6</td>
+    </tr>
+    <tr>
+        <td><b>Total pristine images</b></td><td>6 x 6 x 2 x 3 x 6 = 1,296</td>
+    </tr>
+</table>
 
 #### Examples of pristine images in the dataset:
 ![image](https://github.com/CollabAR-Source/MVMDD/blob/master/example.PNG) 
