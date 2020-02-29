@@ -134,7 +134,7 @@ To generate distortion images, follow the procedure below:
    - *distortion_degree*: indicates the distortion level you would like to set.
  4. The generated images will be saved in the generated folder.
 
-The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all images in the *./Clear_Background* folder: `python .\distortion_generation.py .\Clear_Background\ GN 0.01.
+The following is an example of generating *Gaussian noise* distorted images with distortion level *0.01* for all images in the *./Clear_Background* folder: `python .\distortion_generation.py .\Clear_Background\ GN 0.01.`
   
 ## 3. <span id="3">CollabAR Demo</span>
 
